@@ -1,0 +1,56 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fffaf8;
+  color: #444;
+  line-height: 1.6;
+}
+
+header {
+  background: #ffe5ec;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+  color: #d6336c;
+}
+
+.date, .location {
+  font-size: 1.1rem;
+  margin: 0.3rem 0;
+}
+
+.invitation, .timeline, .map {
+  padding: 2rem 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  color: #d6336c;
+  margin-bottom: 1rem;
+}
+
+.timeline ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+}
+
+.timeline li {
+  margin: 0.8rem 0;
+  background: #fff0f5;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+footer {
+  background: #ffe5ec;
+  text-align: center;
+  padding: 1.5rem;
+  font-weight: bold;
+}
